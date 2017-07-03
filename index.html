@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+
+
+
+  var Merceds={
+      name:'Merceds',
+      model:'C63',
+      color:['Black and White']
+
+
+  };  var BMW={
+
+
+      name:'BMW',
+      model:'x6',
+      color:['Blue']
+
+
+};  var Nissan={
+
+
+      name:'Nissan',
+      model:'GTR',
+      color:['Grey']
+  };
+
+  var Cars=[
+
+
+
+
+      {
+
+          name:'Merceds',
+          model:'C63',
+          color:'White',
+          features:['Black color','twin Came Engine']
+
+      },
+
+      {
+
+
+          name:'BMW',
+          model:'x6',
+          color:'White',
+          features:['Blue color', 'leather seats']
+
+      },
+
+      {
+
+
+          name:'Nissan',
+          model:'GTR',
+          color:'Red',
+          features:['6 litre Engine','0-100 km in 3.2sec','']
+
+      }
+
+];
+
+
+
+
+
+  Cars.forEach(function (Car,key){
+
+      Car.features.forEach(function (features) {
+           document.write(features)
+          document.write('<br/>');
+      })
+
+  } );
+
+
+
+</script>
